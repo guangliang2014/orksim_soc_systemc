@@ -1,0 +1,14 @@
+/home/ut/systemc/tlm/esp1/build/CMakeFiles/edit_cache.dir
+/home/ut/systemc/tlm/esp1/build/CMakeFiles/rebuild_cache.dir
+/home/ut/systemc/tlm/esp1/build/logger/CMakeFiles/logger_test.dir
+/home/ut/systemc/tlm/esp1/build/logger/CMakeFiles/edit_cache.dir
+/home/ut/systemc/tlm/esp1/build/logger/CMakeFiles/rebuild_cache.dir
+/home/ut/systemc/tlm/esp1/build/simple-soc/CMakeFiles/simple-soc.dir
+/home/ut/systemc/tlm/esp1/build/simple-soc/CMakeFiles/edit_cache.dir
+/home/ut/systemc/tlm/esp1/build/simple-soc/CMakeFiles/rebuild_cache.dir
+/home/ut/systemc/tlm/esp1/build/sync-soc/CMakeFiles/sync-soc.dir
+/home/ut/systemc/tlm/esp1/build/sync-soc/CMakeFiles/edit_cache.dir
+/home/ut/systemc/tlm/esp1/build/sync-soc/CMakeFiles/rebuild_cache.dir
+/home/ut/systemc/tlm/esp1/build/intr-soc/CMakeFiles/intr-soc.dir
+/home/ut/systemc/tlm/esp1/build/intr-soc/CMakeFiles/edit_cache.dir
+/home/ut/systemc/tlm/esp1/build/intr-soc/CMakeFiles/rebuild_cache.dir

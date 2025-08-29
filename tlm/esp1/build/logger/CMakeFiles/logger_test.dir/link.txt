@@ -1,0 +1,1 @@
+/usr/local/bin/ccache  g++ CMakeFiles/logger_test.dir/Or1ksimSC.cpp.o CMakeFiles/logger_test.dir/LoggerSC.cpp.o CMakeFiles/logger_test.dir/loggerMainSC.cpp.o -o logger_test   -L/usr/lib/x86_64-linux-gnu/lib64  -L/home/ut/systemc/or1ksim/or1k/lib  -Wl,-rpath,/usr/lib/x86_64-linux-gnu/lib64:/home/ut/systemc/or1ksim/or1k/lib -lsystemc -lsim 
