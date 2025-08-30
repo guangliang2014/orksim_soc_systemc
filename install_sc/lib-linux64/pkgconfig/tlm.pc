@@ -26,7 +26,7 @@
 #
 # -------------------------------------------------------------------------
 #
-prefix=/home/ut/systemc/install
+prefix=/home/ut/systemc/install_sc
 exec_prefix=${prefix}
 includedir=${prefix}/include
 

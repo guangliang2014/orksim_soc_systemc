@@ -27,7 +27,7 @@
 # -------------------------------------------------------------------------
 #
 TARGET_ARCH=linux64
-prefix=/home/ut/systemc/install
+prefix=/home/ut/systemc/install_sc
 exec_prefix=${prefix}
 libarchdir=${exec_prefix}/lib-${TARGET_ARCH}
 includedir=${prefix}/include

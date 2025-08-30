@@ -1,0 +1,6 @@
+{
+    "C_Cpp.default.includePath": [
+        "systemc-3.0.1/src",
+        "systemc-3.0.1/include"
+    ]
+}

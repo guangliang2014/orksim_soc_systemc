@@ -1,0 +1,50 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "make",
+            "options": {
+                "cwd": "${workspaceFolder}/systemc_test/mytest"
+            },
+            "problemMatcher": [],
+            "dependsOn": [
+                "clean"
+            ]
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "make",
+            "args": [
+                "clean"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}/systemc_test/mytest"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "./mytest",
+            "options": {
+                "cwd": "${workspaceFolder}/systemc_test/mytest"
+            },
+            "problemMatcher": [],
+            "dependsOn": [
+                "build"
+            ]
+        },
+         {
+            "label": "build-install-systemc",
+            "type": "shell",
+            "command": "../configure --prefix=${workspaceFolder}/install_sc && make -j$(nproc) && make install",
+            "options": {
+                "cwd": "${workspaceFolder}/systemc-3.0.1/build"
+            },
+            "problemMatcher": []
+        }
+    ]
+}

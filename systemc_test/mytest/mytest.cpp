@@ -72,7 +72,17 @@ int sc_main(int argc, char *argv[])
     // 初始化信号
     demo.sig1.write(10);
 
+
+    // 创建VCD波形文件
+    sc_trace_file *tf = sc_create_vcd_trace_file("wave");
+
+     // 对你关心的信号进行trace
+    sc_trace(tf, demo.sig1, "sig1");
+    sc_trace(tf, demo.sig2, "sig2");
+
     // 启动仿真
     sc_start(3, SC_NS);
+
+    sc_close_vcd_trace_file(tf); // 仿真结束关闭文件
     return 0;
 }

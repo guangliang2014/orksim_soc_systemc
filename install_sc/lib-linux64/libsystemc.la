@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/ut/systemc/install/lib-linux64'
+libdir='/home/ut/systemc/install_sc/lib-linux64'
